@@ -29,14 +29,8 @@ const App = () => {
       <Feature1 />
       <Feature2 />
       <Feature3 />
-      {/* <Product /> */}
-      {/* <Pricing /> */}
-      {/* <Testimonials /> */}
-      {/* <Cta /> */}
-      {/* <Footer /> */}
       <MyFooter />
       <Copyright />
-      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };
