@@ -15,7 +15,7 @@ const Feature1 = () => {
       <img className='lg:w-[250px] md:w-[200px] w-[150px]' src={image} alt=""/>
     </div>
     <div className='container mx-auto flex justify-center'>
-      <div class="grid grid-rows-2 absolute lg:top-[1300px] md:top-[1550px] sm:top-[1550px] top-[1600px] grid-flow-col lg:gap-x-[700px] lg:gap-y-[150px] md:gap-x-[250px] md:gap-y-[180px] sm:gap-y-[130px] gap-y-[150px] gap-x-[190px] font-bold text-white">
+      <div class="grid grid-rows-2 absolute lg:top-[1300px] md:top-[1550px] sm:top-[1550px] top-[1750px] grid-flow-col lg:gap-x-[700px] lg:gap-y-[150px] md:gap-x-[250px] md:gap-y-[180px] sm:gap-y-[130px] gap-y-[70px] gap-x-[190px] font-bold text-white">
         <div className='flex justify-center flex-col items-center' data-aos="fade-right"
               data-aos-delay="300">
           <FaCheckCircle className='text-2xl'/>
