@@ -17,7 +17,7 @@ const Feature2 = () => {
   //destructure feature2
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature2;
   return (
-    <section className="bg-gradient-to-r py-20 from-green-200 to-green-100 bg-cover">
+    <section className="bg-gradient-to-r overflow-hidden py-20 from-green-200 to-green-100 bg-cover">
       <div className="container mx-auto w-full lg:w-[1500px]">
       <h1 className="font-bold font-secondary text-center text-4xl" data-aos="fade-up"
               data-aos-delay="800">Ayo Kenalan Lebih Dalam Lagi dengan Biopestisida Biodirachtin!</h1>

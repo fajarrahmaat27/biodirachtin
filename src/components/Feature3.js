@@ -15,7 +15,7 @@ const Feature3 = () => {
   //destructure feature2
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature2;
   return (
-    <section className="bg-gradient-to-r from-emerald-500 py-20 to-emerald-900">
+    <section className="bg-gradient-to-r overflow-hidden from-emerald-500 py-20 to-emerald-900">
       <div className="container mx-auto w-full lg:w-[1500px]">
       <h1 className="font-bold font-secondary text-center text-white text-4xl" data-aos="fade-down"
               data-aos-delay="900">Yuk pahami kebutuhan tanamanmu!</h1>

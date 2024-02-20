@@ -21,7 +21,7 @@ const Header = () => {
     });
   });
   return <header className={`${
-    isActive ? 'lg:top-0 shadow-2xl' : 'lg:top-[60px]'} bg-gradient-to-r sm:fixed from-emerald-500 to-emerald-900 lg:py-2 w-full transition-all z-10 font-secondary`}>
+    isActive ? 'lg:top-0 shadow-2xl' : 'lg:top-[60px]'} bg-gradient-to-r overflow-hidden sm:fixed from-emerald-500 to-emerald-900 lg:py-2 w-full transition-all z-10 font-secondary`}>
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <a href="#" data-aos='fade-down' data-aos-delay=' 1000'>

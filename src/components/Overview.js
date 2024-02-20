@@ -7,7 +7,7 @@ const Overview = () => {
   //destructure overview
   const { productImg } = overview;
   return (
-    <section className="lg:min-h-[400px] items-center min-h-[600px] bg-gradient-to-r from-green-200 to-green-100 bg-cover bg-left-top pt-[5px] mx-auto flex justify-center">
+    <section className="lg:min-h-[400px] items-center min-h-[600px] overflow-hidden bg-gradient-to-r from-green-200 to-green-100 bg-cover bg-left-top pt-[5px] mx-auto flex justify-center">
       <div className="container rounded-lg min-h-[650px] lg:min-h-[350px] flex flex-col lg:flex-row-reverse justify-center items-center">
         <img className="lg:h-[200px] h-[150px]" data-aos="fade-down"
               data-aos-delay="500" src={productImg} alt=""/>

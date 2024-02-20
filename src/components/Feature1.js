@@ -8,7 +8,7 @@ const Feature1 = () => {
   const {feature1} = features;
   //destructure feature1
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature1 ;
-  return <section className='static py-[80px] bg-gradient-to-r from-emerald-500 to-emerald-900 font-secondary'>
+  return <section className='static overflow-hidden py-[80px] bg-gradient-to-r from-emerald-500 to-emerald-900 font-secondary'>
     <div className='container mx-auto flex flex-col items-center justify-center' data-aos="fade-up"
               data-aos-delay="600">
       <h1 className='text-center font-bold text-3xl text-white mb-3'>Keutamaan Produk Kami</h1>

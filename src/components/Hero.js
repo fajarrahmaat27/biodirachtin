@@ -9,7 +9,7 @@ const Hero = () => {
   //destructure hero data
   const { title, subtitle, subtitle2, btnText, compText, image } = hero;
   return (
-    <section className=" min-h-[200px]  bg-gradient-to-r from-emerald-500 to-emerald-900 font-secondary">
+    <section className=" min-h-[200px] overflow-hidden bg-gradient-to-r from-emerald-500 to-emerald-900 font-secondary">
       <div class="container mx-auto min-h-[750px] flex justify-center items-center">
         <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left">
           {/* {text} */}
