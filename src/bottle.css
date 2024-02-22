@@ -1,0 +1,100 @@
+.bottlegrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  gap: 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Bottle keunggulan-1"
+    "Bottle keunggulan-2"
+    "Bottle keunggulan-3"
+    "Bottle keunggulan-4";
+}
+
+.Bottle { grid-area: Bottle; }
+
+.keunggulan-1 { grid-area: keunggulan-1; }
+
+.keunggulan-2 { grid-area: keunggulan-2; }
+
+.keunggulan-3 { grid-area: keunggulan-3; }
+
+.keunggulan-4 { grid-area: keunggulan-4; }
+
+@media screen and (max-width: 640px) {
+  .bottlegrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Bottle keunggulan-1"
+      "Bottle keunggulan-2"
+      "Bottle keunggulan-3"
+      "Bottle keunggulan-4";
+  }
+  
+  .Bottle { grid-area: Bottle; }
+  
+  .keunggulan-1 { grid-area: keunggulan-1; }
+  
+  .keunggulan-2 { grid-area: keunggulan-2; }
+  
+  .keunggulan-3 { grid-area: keunggulan-3; }
+  
+  .keunggulan-4 { grid-area: keunggulan-4; }
+}
+
+
+@media screen and (min-width: 760px) {
+  .bottlegrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "keunggulan-1 Bottle keunggulan-3"
+      ". Bottle ."
+      "keunggulan-2 Bottle keunggulan-4"
+  }
+}
+
+/* @media screen and (min-width: 400px) {
+  .bottlegrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "keunggulan-1 Bottle keunggulan-3"
+      ". Bottle ."
+      "keunggulan-2 Bottle keunggulan-4"
+  }
+} */
+
+/* @media screen and (min-width: 629px) {
+  .bottlegrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "keunggulan-1 Bottle keunggulan-3"
+      ". Bottle ."
+      "keunggulan-2 Bottle keunggulan-4"
+  }
+} */
+
+@media screen and (min-width: 900px) {
+  .bottlegrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px 200px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "keunggulan-1 Bottle keunggulan-3"
+      ". Bottle ."
+      "keunggulan-2 Bottle keunggulan-4"
+  }
+}

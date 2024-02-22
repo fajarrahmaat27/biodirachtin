@@ -1,6 +1,6 @@
 // import images
 import LogoImg from '../src/assets/img/header/logolagii.png';
-import HeroImg from '../src/assets/img/hero/product.png';
+import HeroImg from '../src/assets/img/hero/9.svg';
 import TittleHero from '../src/assets/img/hero/judul.png';
 import OverviewProductImg from '../src/assets/img/header/logo.png';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
@@ -8,7 +8,7 @@ import GoogleImg from '../src/assets/img/overview/brands/google.svg';
 import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
 import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
 import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
-import Feature1Img from '../src/assets/img/features/produk1.png';
+import Feature1Img from '../src/assets/img/features/produk.png';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
