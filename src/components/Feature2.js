@@ -28,7 +28,7 @@ const Feature2 = () => {
               <a href="#" target="_blank">
                 <img className="mx-auto sm:w-[200px] lg:w-[200px] w-[200px]" src={productImg} alt="" />
               </a>
-              <h5 className="text-2xl font-semibold text-primary text-center font-secondary ">Mengenal lebih jauh Biopestisidayy
+              <h5 className="text-2xl font-semibold text-primary text-center font-secondary ">Mengenal lebih jauh Biopestisida
               </h5>
               <div className="flex justify-center items-center rounded-3xl mt-2 bg-gradient-to-r from-emerald-700 to-emerald-700 text-white w-[280px] xl:w-[200px] mx-auto">
                 <p className="text-xl font-semibold text-center">Selengkapnya</p>
