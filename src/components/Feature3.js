@@ -42,7 +42,7 @@ const Feature3 = () => {
                 <img className="mx-auto sm:w-[200px] lg:w-[200px] w-[200px]" src={productImg} alt="" />
               </a>
               <h5 className="text-xs font-semibold text-primary px-5 text-center font-secondary">
-              Kenali Hama pengganggu tanaman dan Solusinya
+              Kenali Hama pengganggu tanaman dan solusinya
               </h5>
               <div className="flex justify-center items-center rounded-3xl mt-2 bg-gradient-to-r from-emerald-700 to-emerald-700 text-white w-[280px] xl:w-[120px] mx-auto py-1">
                 <p className="font-semibold text-xs text-center">Selengkapnya</p>
