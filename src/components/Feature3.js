@@ -27,7 +27,7 @@ const Feature3 = () => {
                 <img className="mx-auto sm:w-[200px] lg:w-[200px] w-[200px]" src={productImg} alt="" />
               </a>
               <h5 className="text-xl font-semibold text-primary px-5 text-center font-secondary">
-              Factor growth tumbuhan
+              Growth factors tanaman hortikultura
               </h5>
               <div className="flex justify-center items-center rounded-3xl mt-2 bg-gradient-to-r from-emerald-700 to-emerald-700 text-white w-[280px] xl:w-[120px] mx-auto py-1">
                 <p className="font-semibold text-xs text-center">Selengkapnya</p>
@@ -57,7 +57,7 @@ const Feature3 = () => {
                 <img className="mx-auto sm:w-[200px] lg:w-[200px] w-[200px]" src={productImg} alt="" />
               </a>
               <h5 className="text-xs font-semibold text-primary px-2 text-center font-secondary">
-              Ciri dan solusi tanmaan yang kekurangan unsur makronutrisi dan mikronutrisi
+              Ciri dan solusi tanaman yang kekurangan unsur makronutrisi dan mikronutrisi
               </h5>
               <div className="flex justify-center items-center rounded-3xl mt-2 bg-gradient-to-r from-emerald-700 to-emerald-700 text-white w-[280px] xl:w-[120px] mx-auto py-1">
                 <p className="font-semibold text-xs text-center">Selengkapnya</p>
